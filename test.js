@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const { authenticator } = require('otplib');
 
-const MFA_SECRET = 'drfvdcxkgqghrggg';  // Replace with actual secret key
+const MFA_SECRET = 'Hidden';  // Replace with actual secret key
 
 (async () => {
     const browser = await puppeteer.launch({ headless: true, slowMo: 50 });
