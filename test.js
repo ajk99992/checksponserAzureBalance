@@ -11,12 +11,12 @@ const MFA_SECRET = 'drfvdcxkgqghrggg';  // Replace with actual secret key
 
     // Enter Email
     await page.waitForSelector('input[type="email"]');
-    await page.type('input[type="email"]', 'admin@agricommodity.onmicrosoft.com');
+    await page.type('input[type="email"]', 'username');
     await page.keyboard.press('Enter');
 
     // Enter Password
     await page.waitForSelector('input[type="password"]');
-    await page.type('input[type="password"]', 'ferry-aide-Chip-debug-twice');
+    await page.type('input[type="password"]', 'password');
     await page.keyboard.press('Enter');
 
     // Wait for MFA field
