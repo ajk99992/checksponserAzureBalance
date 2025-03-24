@@ -7,9 +7,9 @@ const BASE_URL = 'https://api.itglue.com';
 const ORG_ID = "3170330"; // Replace with your organization ID
 const PASSWORD_ID = '11818195';  // The password ID for O365 Admin
 
-const ADHY_MFA_SECRET = 'skhgc2sxpqvzxlq5';
+const ADHY_MFA_SECRET = 'hiddeen';
 
-//const ACMA_MFA_SECRET = 'drfvdcxkgqghrggg';  // Replace with actual secret key
+//const ACMA_MFA_SECRET = 'hidden';  // Replace with actual secret key
 
 const headers = {
   'x-api-key': API_KEY,
