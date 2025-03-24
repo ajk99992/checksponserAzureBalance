@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const { authenticator } = require('otplib');
 const axios = require('axios');  // Add axios to fetch password from IT Glue
 
-const API_KEY = "ITG.132698ea5fa38d719569101f3b41a3a7.UGlHXjJ3iNyFXJAqEMQ_BQgFF7iI7zGf8OIRRSc6zLuCiNdGUpBNC2Y8CtogHP5j";
+const API_KEY = "hidden";
 const BASE_URL = 'https://api.itglue.com';
 const ORG_ID = "3170330"; // Replace with your organization ID
 const PASSWORD_ID = '11818195';  // The password ID for O365 Admin
