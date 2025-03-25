@@ -4,13 +4,13 @@ const { authenticator } = require('otplib');
 const axios = require('axios');
 
 const app = express();
-const PORT = 3000;
+const PORT = hidden;
 
-const API_KEY = "ITG.132698ea5fa38d719569101f3b41a3a7.UGlHXjJ3iNyFXJAqEMQ_BQgFF7iI7zGf8OIRRSc6zLuCiNdGUpBNC2Y8CtogHP5j";
+const API_KEY = "hidden";
 const BASE_URL = 'https://api.itglue.com';
 const ORG_ID = "3170330";
 const PASSWORD_ID = '11818195';
-const ADHY_MFA_SECRET = 'skhgc2sxpqvzxlq5';
+const ADHY_MFA_SECRET = 'hidden';
 
 const headers = {
     'x-api-key': API_KEY,
